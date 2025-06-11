@@ -1,0 +1,41 @@
+\课程设计_23049009_梁宇轩\
+│  课程论文目录结构.txt
+│  
+├─01_课程论文
+│      课程设计_23049009_梁宇轩_基于市场状态自适应的恒温器期货量化交易策略与贝叶斯参数优化研究.docx
+│      
+├─02_投资策略1_恒温器_做多策略
+│  │  strategy_Thermostat_L_test.m
+│  │  
+│  ├─01_数据及其函数
+│  │      Data_Import_Thermostat.m
+│  │      FutureData_23049009_梁宇轩_基于市场状态自适应的恒温器期货量化交易策略与贝叶斯参数优化研究.csv
+│  │      SH_Index_23049009_梁宇轩_基于市场状态自适应的恒温器期货量化交易策略与贝叶斯参数优化研究.csv
+│  │      
+│  ├─02_投资策略函数
+│  │      strategy_Thermostat_L.m
+│  │      
+│  ├─91_程序运行结果输出
+│  │      投资策略累计回报率.emf
+│  │      
+│  └─99_辅助工具函数
+│          strategy_perform.m
+│          
+└─03_投资策略2_恒温器_做多策略_贝叶斯优化
+    │  strategy_Thermostat_L_Bayes_test.m
+    │  
+    ├─01_数据及其函数
+    │      Data_Import_Thermostat.m
+    │      FutureData_23049009_梁宇轩_基于市场状态自适应的恒温器期货量化交易策略与贝叶斯参数优化研究.csv
+    │      SH_Index_23049009_梁宇轩_基于市场状态自适应的恒温器期货量化交易策略与贝叶斯参数优化研究.csv
+    │      
+    ├─02_投资策略函数
+    │      strategy_Thermostat_L.m
+    │      
+    ├─91_程序运行结果输出
+    │      投资策略累计回报率.emf
+    │      
+    └─99_辅助工具函数
+            objective_Thermostat.m
+            optimize_Thermostat_L.m
+            
